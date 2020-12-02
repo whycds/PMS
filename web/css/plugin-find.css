@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #03e9f4;
+    font-family: 华文仿宋, serif;
+}
+
+.findBox {
+    width: 400px;
+    height: 364px;
+    background: #07234f;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .6);
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    bottom: 50%;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+input {
+    width: 240px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    overflow: hidden;
+    margin-top: 25px;
+    color: #141e30;
+    position: relative;
+    letter-spacing: 2px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.btn1:hover {
+    background: #03e9f4;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px 0 #03e9f4, 0 0 50px #03e9f4, 0 0 100px 0 #03e9f4;
+}
+
+.btn2 {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+
